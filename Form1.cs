@@ -18,7 +18,7 @@ namespace Finans
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Загрузка календаря при запуске приложения
+            
             monthCalendar.SelectionStart = DateTime.Today;
             monthCalendar.SelectionEnd = DateTime.Today;
         }
